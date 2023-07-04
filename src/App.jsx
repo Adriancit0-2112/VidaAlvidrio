@@ -1,41 +1,16 @@
 import '@/App.css'
 import Gallery from '@/page/Garelly'
 import Footer from '@/footer/Footer'
-import { SocialIcon } from 'react-social-icons'
-import Logo from './../imgs/Slogan.jpg'
 import imgUno from './../imgs/imgPrincipal.jpeg'
 import imgDos from './../imgs/imgDos.jpeg'
 import imgTres from './../imgs/imgTres.jpeg'
 import imgCuatro from './../imgs/imgCuatro.jpeg'
+import Header from '@/header/Header'
 
 function App () {
   return (
     <>
-      <header id='header-context'>
-        <nav>
-          <img src={Logo} width='50px' className='img-in' />
-        </nav>
-        <div>
-          <h1 className='h1'>VidaAlvidrio</h1>
-          <p className='slogan'>Estructura, Diseño y Elegancia</p>
-        </div>
-        <a
-          href='https://wa.me/525517512462'
-          target='_blank'
-          className='wps'
-          rel='noreferrer'
-        >
-          <SocialIcon network='whatsapp' />
-        </a>
-        <a
-          href='https://www.facebook.com/people/Vidaal-Vidrio/pfbid02MrnPp3qnarw7N8a6PZnLLTnojXuSWs9H5RqXFCWjr2epEcqU1km78sVNapjvgQ2vl/?mibextid=ZbWKwL'
-          target='_blank' className='facebook'
-          rel='noreferrer'
-        >
-          <SocialIcon network='facebook' />
-        </a>
-      </header>
-
+      <Header />
       <section id='section-p'>
         <div className='container'>
           <div className='txt-aling'>
