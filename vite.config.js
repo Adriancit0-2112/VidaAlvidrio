@@ -5,6 +5,7 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/vidaAlvidrio/',
   // Configurar Alias para mis carpetas con @
   resolve: {
     alias: {
