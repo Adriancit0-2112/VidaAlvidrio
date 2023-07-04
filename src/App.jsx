@@ -2,13 +2,18 @@ import '@/App.css'
 import Gallery from '@/page/Garelly'
 import Footer from '@/footer/Footer'
 import { SocialIcon } from 'react-social-icons'
+import Logo from './../imgs/Slogan.jpg'
+import imgUno from './../imgs/imgPrincipal.jpeg'
+import imgDos from './../imgs/imgDos.jpeg'
+import imgTres from './../imgs/imgTres.jpeg'
+import imgCuatro from './../imgs/imgCuatro.jpeg'
 
 function App () {
   return (
     <>
       <header id='header-context'>
         <nav>
-          <img src='/imgs/house-window-icon-free-vector.jpg' width='50px' className='img-in' />
+          <img src={Logo} width='50px' className='img-in' />
         </nav>
         <div>
           <h1 className='h1'>VidaAlvidrio</h1>
@@ -46,10 +51,10 @@ function App () {
           </div>
         </div>
         <div className='box-derecha'>
-          <img src='/imgs/WhatsApp Image 2022-10-28 at 21.39.00 (6).jpeg' className='img-section--1' alt='' />
+          <img src={imgUno} className='img-section--1' alt='' />
         </div>
         <div className='box-izquierda'>
-          <img src='/imgs/pgn.img.03.jpeg' alt='' className='img-section--2' />
+          <img src={imgDos} alt='' className='img-section--2' />
         </div>
         <div className='textoTres'>
           <h3 className='textoDos'>Amplia variedad de Servicios</h3>
@@ -68,10 +73,10 @@ function App () {
           </p>
         </div>
         <div>
-          <img src='/imgs/pgn.img.04.jpeg' alt='' className='img-section--3' />
+          <img src={imgTres} alt='' className='img-section--3' />
         </div>
         <div>
-          <img src='/imgs/pgn.img.06.jpeg' alt='' className='img-section--4' />
+          <img src={imgCuatro} alt='' className='img-section--4' />
         </div>
         <div className='h5'>
           <h5 className='textoCinco'>Asesoría personlizada.</h5>
